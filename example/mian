@@ -1,0 +1,20 @@
+ #!/bin/sh
+ #|
+ exec csi -s "$0" "$@"
+ |#
+
+(import (chicken process-context))
+
+; chicken-install shell
+(require-extension shell)
+
+(define test
+ (lambda () (run (csi -s hello.scm))))
+
+(let ((default-task 'test)
+      (args (map string->symbol (command-line-arguments))))
+ (if (= (length args) 0)
+  ((eval default-task))
+  (map (lambda (arg)
+        ((eval arg)))
+        args)))
