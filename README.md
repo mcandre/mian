@@ -108,5 +108,6 @@ Validate command line arguments against the list of task names.
 * [slick](https://github.com/mcandre/slick), a linter to enforce stricter, unextended POSIX sh syntax compliance
 * [stank](https://github.com/mcandre/stank), a collection of POSIX-y shell script linters
 * [tinyrick](https://github.com/mcandre/tinyrick) for Rust projects
+* [yao](https://github.com/mcandre/yao), a task runner for Common LISP projects
 
 🍜
