@@ -91,6 +91,7 @@ Validate command line arguments against the list of task names.
 * [bashate](https://github.com/openstack/bashate), a shell script style linter
 * [beltaloada](https://github.com/mcandre/beltaloada), a shell build system
 * [bb](https://github.com/mcandre/bb), a build system for (g)awk projects
+* [booty](https://github.com/mcandre/booty?tab=readme-ov-file) for JS/Node.js/altJS
 * [Gradle](https://gradle.org/), a build system for JVM projects
 * [jelly](https://github.com/mcandre/jelly), a JSON task runner
 * [lake](https://luarocks.org/modules/steved/lake), a Lua task runner
